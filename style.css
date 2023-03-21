@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #0d192c;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+.box {
+  width: 350px;
+  padding: 24px;
+  background-color: #15263f;
+  margin: auto;
+  border-radius: 15px;
+}
+.img {
+  width: 100%;
+  border-radius: 8px;
+}
+.title {
+  font-family: "Outfit", sans-serif;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 28px;
+  margin-top: 24px;
+}
+.title:hover{
+  color:#00FFF8;
+  cursor: pointer;
+}
+.text {
+  font-family: "Outfit", sans-serif;
+  color: #8bacd9;
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 16px;
+  line-height: 26px;
+}
+.icon {
+  width: 11px;
+  height: 12.43px;
+}
+h2 {
+  font-family: "Outfit";
+  color: #00fff8;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+}
+.box2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 95px;
+  justify-content: space-between;
+}
+.img2 {
+  width: 302px;
+  height: 302px;
+  background-color: #00fff8;
+  border-radius: 10px;
+  position: relative;
+  cursor: pointer;
+}
+.view {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+.img2:hover .img {
+  opacity: 0.5;
+}
+.img2:hover .view {
+  display: block;
+}
+.box3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90px;
+  justify-content: space-between;
+}
+.text2 {
+  font-family: outfit;
+  color: #8bacd9;
+  font-size: 16px;
+  line-height: 20px;
+}
+.icons {
+  display: flex;
+  width: 302px;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+.clock {
+  height: 13px;
+}
+.border {
+  border: 1px solid #2e405a;
+  width: 302px;
+  margin-top: 24px;
+}
+.avatar {
+  width: 33px;
+  height: 33px;
+}
+.image {
+  display: flex;
+  width: 230px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+}
+.Creation {
+  color: #8bacd9;
+  font-family: Outfit;
+  font-size: 16px;
+  line-height: 20px;
+}
+.Jules {
+  font-family: Outfit;
+  color: white;
+  font-size: 16px;
+  line-height: 20px;
+}
+.Jules:hover {
+  color: #00FFF8;
+  cursor: pointer;
+}
